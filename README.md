@@ -12,7 +12,9 @@ To be able to run the Python code shown in these notebook repository you should 
 
 ### How to use this repository
 
-You can either download all the Jupyter .ipynb notebook files using the *Download* button somewhere further up, or you can just copy pieces of code and paste them on your local editor.
+There's one Jupyter notebook for each section of the course. Each notebook contains the source code for each lecture of that section. 
+
+You can either download all the Jupyter .ipynb notebook files using the *Download* button somewhere further up, or you can just copy pieces of code and run them on your local editor.
 
 ### Author
 Ardit Sulce
