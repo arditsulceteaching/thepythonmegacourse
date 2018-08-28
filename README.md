@@ -1,3 +1,5 @@
+**Note**: Sections 11 to 24 are not yet complete. 
+
 # The Python Mega Course: Build 10 Real World Applications
 
 This repository contains all the source code of The Python Mega Course, a comprehensive Python course created by Ardit Sulce. If you're not a member of the course, you can become one for just a one-time payment of $10 using the discount link below: [https://udemy.com/the-python-mega-course/?couponCode=GTASTCS](https://udemy.com/the-python-mega-course/?couponCode=GTASTCS)
