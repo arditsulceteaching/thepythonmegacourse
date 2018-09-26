@@ -1,0 +1,56 @@
+[
+  {
+    "ID": 1,
+    "Address": "3666 21st St",
+    "City": "San Francisco",
+    "State": "CA 94114",
+    "Country": "USA",
+    "Name": "Madeira",
+    "Employees": 8
+  },
+  {
+    "ID": 2,
+    "Address": "735 Dolores St",
+    "City": "San Francisco",
+    "State": "CA 94119",
+    "Country": "USA",
+    "Name": "Bready Shop",
+    "Employees": 15
+  },
+  {
+    "ID": 3,
+    "Address": "332 Hill St",
+    "City": "San Francisco",
+    "State": "California 94114",
+    "Country": "USA",
+    "Name": "Super River",
+    "Employees": 25
+  },
+  {
+    "ID": 4,
+    "Address": "3995 23rd St",
+    "City": "San Francisco",
+    "State": "CA 94114",
+    "Country": "USA",
+    "Name": "Ben's Shop",
+    "Employees": 10
+  },
+  {
+    "ID": 5,
+    "Address": "1056 Sanchez St",
+    "City": "San Francisco",
+    "State": "California",
+    "Country": "USA",
+    "Name": "Sanchez",
+    "Employees": 12
+  },
+  {
+    "ID": 6,
+    "Address": "551 Alvarado St",
+    "City": "San Francisco",
+    "State": "CA 94114",
+    "Country": "USA",
+    "Name": "Richvalley",
+    "Employees": 20
+  }
+]
