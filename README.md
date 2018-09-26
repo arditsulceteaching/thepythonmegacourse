@@ -1,20 +1,21 @@
-**Note**: Sections 11 to 24 are not yet complete. 
+# What are these?
 
-# The Python Mega Course: Build 10 Real World Applications
+This repository contains all the source code of The Python Mega Course, a comprehensive Python course authored by Ardit Sulce. 
 
-This repository contains all the source code of The Python Mega Course, a comprehensive Python course created by Ardit Sulce. If you're not a member of the course, you can become one for just a one-time payment of $10 using the discount link below: [https://www.udemy.com/the-python-mega-course/?couponCode=GITREADSECTION](https://www.udemy.com/the-python-mega-course/?couponCode=GITREADSECTION)
+If you're not a member of the course, you can become one for just a one-time payment of $15 using the discount link below: [https://www.udemy.com/the-python-mega-course/?couponCode=GITREADSECTION](https://www.udemy.com/the-python-mega-course/?couponCode=GITREADSECTION)
 
 If you're not a member you can still use these Jupyter notebooks, but you won't be able to see the video lectures and you won't be able to ask questions to the instructor inside the course.
 
-### Prerequisites
+### How to use these notebooks?
 
-To be able to run the Python code shown in these notebook repository you should have Python 3 installed in your computer. If the code uses a third party library that is mentioned in the notebooks.
+There's one notebook for each section of the coures. Simply click the notebook you want, locate the lecture, and copy the code. Or if you know how to use Jupyter notebooks, then use the green download button further above to download all the notebooks and open them in your browser.
 
-### How to use this repository
+Clicking a lecture opens the corresponding video lecture on Udemy:
+![Lectures are clickable](data/lecture_link_demo.gif)
 
-There's one Jupyter notebook for each section of the course. Each notebook contains the source code for each lecture of that section. 
+### What are the prerequisites to use these?
 
-You can either download all the Jupyter .ipynb notebook files using the *Download* button somewhere further up, or you can just copy pieces of code and run them on your local editor.
+To be able to run the Python code shown in these notebooks you should have Python 3 installed in your computer. If the code uses a third party library that is mentioned in the notebooks.
 
 ### Author
 Ardit Sulce
