@@ -1,34 +1,28 @@
-import folium
-import pandas
-
-data = pandas.read_csv("Volcanoes.txt")
-lat = list(data["LAT"])
-lon = list(data["LON"])
-elev = list(data["ELEV"])
-
-def color_producer(elevation):
-    if elevation < 1000:
-        return 'green'
-    elif 1000 <= elevation < 3000:
-        return 'orange'
+import json
+from difflib import get_close_matches
+data = json.load(open("data.json"))
+def translate(w):
+    w = w.lower()
+    if w in data:
+        return data[w]
+    elif w.title() in data:
+        return data[w.title()]
+    elif w.upper() in data: #in case user enters words like USA or NATO
+        return data[w.upper()]
+    elif len(get_close_matches(w, data.keys())) > 0:
+        yn = input("Did you mean %s instead? Enter Y if yes, or N if no: " % get_close_matches(w, data.keys())[0])
+        if yn == "Y":
+            return data[get_close_matches(w, data.keys())[0]]
+        elif yn == "N":
+            return "The word doesn't exist. Please double check it."
+        else:
+            return "We didn't understand your entry."
     else:
-        return 'red'
-map = folium.Map(location=[38.58, -99.09], zoom_start=6, tiles="Stamen Terrain")
-
-fgv = folium.FeatureGroup(name="Volcanoes")
-
-for lt, ln, el in zip(lat, lon, elev):
-    fgv.add_child(folium.CircleMarker(location=[lt, ln], radius = 6, popup=str(el)+" m",
-    fill_color=color_producer(el), fill=True,  color = 'grey', fill_opacity=0.7))
-
-fgp = folium.FeatureGroup(name="Population")
-
-fgp.add_child(folium.GeoJson(data=open('world.json', 'r', encoding='utf-8-sig').read(),
-style_function=lambda x: {'fillColor':'green' if x['properties']['POP2005'] < 10000000
-else 'orange' if 10000000 <= x['properties']['POP2005'] < 20000000 else 'red'}))
-
-map.add_child(fgv)
-map.add_child(fgp)
-map.add_child(folium.LayerControl())
-
-map.save("scratch.html")
+        return "The word doesn't exist. Please double check it."
+word = input("Enter word: ")
+output = translate(word)
+if type(output) == list:
+    for item in output:
+        print(item)
+else:
+    print(output)
