@@ -8,14 +8,14 @@ If you're not a member you can still use these Jupyter notebooks, but you won't 
 
 ### How to use these notebooks?
 
-There's one notebook for each section of the coures. Simply click the notebook you want, locate the lecture, and copy the code. Or if you know how to use Jupyter notebooks, then use the green download button further above to download all the notebooks and open them in your browser.
+There's one notebook for each section of the course. Simply click the notebook you want, locate the lecture, and copy the code. Or if you know how to use Jupyter notebooks, then use the green download button further above to download all the notebooks and open them in your browser.
 
 Clicking a lecture opens the corresponding video lecture on Udemy:
 ![Lectures are clickable](data/lecture_link_demo.gif)
 
 ### What are the prerequisites to use these?
 
-To be able to run the Python code shown in these notebooks you should have Python 3 installed in your computer. If the code uses a third party library that is mentioned in the notebooks.
+To be able to run the Python code shown in these notebooks you should have Python 3 installed on your computer. If the code uses a third party library that is mentioned in the notebooks.
 
 ### Author
 Ardit Sulce
